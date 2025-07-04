@@ -1,1 +1,70 @@
+1️⃣ What was the goal of this project?
+Answer:
+The goal was to analyze the unemployment rate across different Indian states, identify patterns and trends, investigate the impact of COVID-19 on unemployment, 
+and visualize the data to extract meaningful insights that could support economic or social policy decisions.
+
+2️⃣ Which dataset did you use?
+Answer:
+I used two datasets:
+    1. Unemployment data (755 entries): includes region, date, unemployment rate, employment, and labour participation rate.
+    2. State coordinates data: includes latitude and longitude of each Indian state for mapping.
+
+3️⃣ What kind of data cleaning did you perform?
+Answer:
+    1. Checked and handled missing values (e.g., Puducherry & Chandigarh lat/lng).
+    2. Removed extra spaces from column names.
+    3. Verified data types and converted Date column to datetime format.
+    4. Removed or handled duplicates if found.
+
+4️⃣ Which visualizations did you use?
+Answer:
+    1. Line plots to show unemployment trends over time.
+    2. Boxplots to identify state-wise unemployment spread and outliers.
+    3. Heatmaps to visualize correlation between employment metrics.
+    4. Animated scatter map (Plotly) to show monthly unemployment variations across India.
+    5. Color-size map showing labour participation (color) vs unemployment rate (bubble size).
+
+5️⃣ What insights did you get from your analysis?
+Answer:
+
+>The unemployment rate peaked in mid-2020, showing clear impact of COVID-19.
+>Some states had consistently high unemployment (e.g., Bihar), while others had low rates (e.g., Gujarat).
+>Petal features showed clearer trends compared to sepal.
+>Labour participation dropped during pandemic months in several states.
+
+6️⃣ Why did you merge the coordinate dataset?
+Answer:
+To enable geo-visualization. By adding latitude and longitude to each state, I could plot maps showing spatial trends and compare states visually using Plotly 
+and scatter maps.
+
+7️⃣ What does your animated map show?
+Answer:
+It shows month-wise change in unemployment rates across Indian states. It helps understand which states were affected the most and how the situation 
+changed over time — especially during the COVID-19 pandemic.
+
+8️⃣ What challenges did you face during the project?
+Answer:
+   1. Missing values for some states in the coordinates file.
+   2. Normalizing column names and date parsing.
+   3. Mapping long-form data with time-based animations.
+   4. Understanding the difference between “Urban” and “Rural” data under the Area column.
+
+9️⃣ Which tools and libraries did you use?
+Answer:
+
+Pandas, NumPy: Data cleaning and manipulation
+
+Matplotlib, Seaborn, Plotly Express: Visualization
+
+Jupyter Notebook / VS Code: Development environment
+
+🔟 How could this project be useful for policy makers?
+Answer:
+The project highlights state-wise and time-based trends in unemployment, helping identify:
+
+  1. Areas needing job support or government intervention
+  2. Pandemic impact zones
+  3. Seasonal fluctuations in employment
+     This can guide targeted economic relief programs.
+
 
