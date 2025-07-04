@@ -41,8 +41,6 @@ This project is part of my CodeAlpha Internship. It involves building a machine 
 - 🧠 Model: Logistic Regression
 - ✅ Accuracy Achieved: 100%
 
----
-
 ## 📊 Dataset Description
 
 The dataset contains **150 records** and **5 columns**:
@@ -64,7 +62,6 @@ The dataset contains **150 records** and **5 columns**:
 - **Model Used**: Logistic Regression
 - **Train-Test Split**: 70/30
 - **Accuracy Score**: `100%` (on test data)
----
 
 ## 📈 Key Visuals
 
