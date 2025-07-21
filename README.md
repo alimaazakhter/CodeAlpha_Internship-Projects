@@ -81,6 +81,6 @@ The dataset contains **150 records** and **5 columns**:
 ## 👤 Author
 
 **Alimaaz Akhter**  
-_CodeAlpha Intern — July 2025_
+CodeAlpha Intern : July 2025 - September 2025
 
 
